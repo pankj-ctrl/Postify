@@ -1,4 +1,4 @@
-# Express Posts App 📝
+# Postify App 📝
 
 A simple CRUD (Create, Read, Update, Delete) application built with **Node.js, Express, EJS, and UUID**.  
 It lets users create posts, view them, edit/update posts, and delete posts.
@@ -60,11 +60,6 @@ It lets users create posts, view them, edit/update posts, and delete posts.
 - [ejs](https://www.npmjs.com/package/ejs)
 - [uuid](https://www.npmjs.com/package/uuid)
 - [method-override](https://www.npmjs.com/package/method-override)
-
----
-
-## 📸 Screenshots
-(Add some screenshots of your app here for better presentation.)
 
 ---
 
