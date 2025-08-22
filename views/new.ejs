@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Post</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Create New Post</h2>
+        
+        <div class="edit-container">
+            <form action="/posts" method="post">
+                <label for="username" style="color: #667eea; font-weight: 600; margin-bottom: 5px;">Username:</label>
+                <input type="text" id="username" placeholder="Enter your username" name="username" required>
+                
+                <label for="content" style="color: #667eea; font-weight: 600; margin-bottom: 5px;">Content:</label>
+                <textarea id="content" placeholder="Write your content here..." name="content" required></textarea>
+                
+                <button type="submit">Create Post</button>
+            </form>
+            
+            <div style="text-align: center; margin-top: 20px;">
+                <button style="background: linear-gradient(135deg, #868e96 0%, #6c757d 100%);">
+                    <a href="/posts">Back to All Posts</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
